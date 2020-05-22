@@ -42,10 +42,10 @@ $name = RandomString();
 $lastname = RandomString();
 
 $skeys = array(
-  1 => 'sk_live_U3W52KTXU51yZwEYUBJO65Qs00AUCpL1se', 
-  2 => 'sk_live_AEMR4UFETLVjbAQxrXqzmXO800j3uuyz13',
-  3 => 'sk_live_e9ufyjH5HW1zuDHA2OPMdw0c00fKWJImyv',
-  4 => 'sk_live_1jFtuvGEjav5OFNQX0jWwvt200rLHmF8rP',
+  1 => 'sk_live_UXvapvaiJvRdeBk4fvzfcysN00eWv9PnEl', 
+  //2 => 'sk_live_AEMR4UFETLVjbAQxrXqzmXO800j3uuyz13',
+  //3 => 'sk_live_e9ufyjH5HW1zuDHA2OPMdw0c00fKWJImyv',
+  //4 => 'sk_live_1jFtuvGEjav5OFNQX0jWwvt200rLHmF8rP',
     ); 
     $skey = array_rand($skeys);
     $sk = $skeys[$skey];
